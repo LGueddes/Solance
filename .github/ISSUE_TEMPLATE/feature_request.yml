@@ -1,0 +1,24 @@
+name: "Feature idea / Sugestão"
+description: "Suggest something new / Sugira algo novo"
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea for Solance? We'd love to hear it. English or Português.
+        Tem uma ideia para o Solance? Queremos ouvir. Pode escrever em português ou inglês.
+  - type: textarea
+    id: idea
+    attributes:
+      label: "What would you like to see? / O que você gostaria de ver?"
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: "Why would it help? / Por que ajudaria?"
+      description: "What are you trying to do? / O que você está tentando fazer?"
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Anything you do today instead? / Algo que você faz hoje no lugar?"

@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Spotify setup guide / Guia do Spotify"
+    url: https://github.com/LGueddes/Solance/blob/main/docs/SPOTIFY.md
+    about: "Step-by-step guide and troubleshooting (a Portuguese version is next to it). / Passo a passo e solução de problemas (há versão em português ao lado)."

@@ -1,0 +1,9 @@
+SOLANCE — LICENSE
+Copyright © 2026 Guedes. All rights reserved.
+
+1. Use. You may install and use Solance free of charge, for personal use.
+2. Restrictions. You may not sell Solance, redistribute it modified, or remove its copyright notices. Source code is not provided.
+3. Third-party components are covered by their own licenses (see THIRD-PARTY-NOTICES.txt, in the program's "licenses" folder).
+4. Spotify. The Spotify tab uses your account and your own Spotify developer app, subject to Spotify's terms. "Spotify" is a trademark of Spotify AB; Solance is not affiliated with, sponsored by or approved by it.
+5. Privacy. Your settings, tasks, water log, shelf and Spotify sign-in (encrypted by Windows) stay only on your computer, in %AppData%\Solance. There are no accounts, analytics or telemetry. When fetching lyrics, the song title, artist, album and duration are sent to LRCLIB. The program watches the Caps Lock and Num Lock keys only to show alerts and does not record what you type.
+6. No warranty. Solance is provided "as is", without warranties of any kind. To the maximum extent permitted by law, the author is not liable for damages arising from its use.

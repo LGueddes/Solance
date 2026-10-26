@@ -1,0 +1,62 @@
+name: "Bug report / Relatar um problema"
+description: "Something isn't working / Algo não está funcionando"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make Solance better! English or Português — either is fine.
+        Obrigado por ajudar a melhorar o Solance! Pode escrever em português ou inglês.
+
+        **Don't post personal information** (Spotify Client ID, e-mails, file names). / **Não publique dados pessoais.**
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: "What happened? / O que aconteceu?"
+      description: "What did you expect, and what happened instead? / O que você esperava e o que aconteceu?"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce / Como reproduzir"
+      placeholder: "1. Hover the notch / Passe o mouse no notch"
+  - type: input
+    id: version
+    attributes:
+      label: "Solance version / Versão do Solance"
+      description: "Settings → About / Configurações → Sobre (e.g. 1.0.0)"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: "Windows version / Versão do Windows"
+      placeholder: "Windows 11 23H2, 64-bit"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: "Area / Área"
+      options:
+        - Notch / animations
+        - Music / lyrics
+        - Spotify tab
+        - Focus / water / tasks / shelf
+        - System alerts
+        - Overlay panel / shortcut
+        - Settings / themes
+        - Installer / startup with Windows
+        - Other / Outro
+  - type: textarea
+    id: log
+    attributes:
+      label: "Log (optional) / Log (opcional)"
+      description: "Last lines of %AppData%\\Solance\\log.txt — remove anything personal. / Últimas linhas de %AppData%\\Solance\\log.txt — remova dados pessoais."
+      render: text
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots (optional) / Capturas de tela (opcional)"
+      description: "Drag and drop images here. / Arraste imagens para cá."
